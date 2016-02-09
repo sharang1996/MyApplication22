@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+>
+
+    <TextView
+        android:text="Your total is 0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/tv"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="add 1"
+        android:textSize="20dp"
+       android:id="@+id/b_add1"
+        />
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:text="subtract 1"
+        android:textSize="20dp"
+        android:id="@+id/b_sub1"
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:hint="enter values here"
+               android:id="@+id/et1"
+               />
+
+           <EditText
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:hint="enter values here"
+               android:id="@+id/et2"
+               />
+
+
+        <Button
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="set"
+            android:textSize="20dp"
+            android:id="@+id/b_set"
+            />
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+        >
+
+
+        <Button
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:textSize="15dp"
+            android:id="@+id/b_add2"
+            />
+
+        <Button
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="subtract"
+            android:textSize="15dp"
+            android:id="@+id/b_sub2"
+
+            />
+
+        <Button
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:text="multiply"
+            android:textSize="15dp"
+            android:id="@+id/b_multiply"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="divide"
+            android:textSize="15dp"
+            android:id="@+id/b_divide"
+            />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

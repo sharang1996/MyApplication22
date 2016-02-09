@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:title="preferences"
+        android:id="@+id/preferences"
+        />
+
+    <item
+    android:title="contact us"
+    android:id="@+id/contactus"
+    />
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"
+        />
+
+
+</menu>
